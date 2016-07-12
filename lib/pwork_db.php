@@ -1,6 +1,23 @@
 <?php
+/*
+    Copyright (C) 2016 Karsten Lueth
+    This file is part of paperwork.
 
-	// Connects to the database
+    Paperwork is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Paperwork is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Paperwork.  If not, see <http://www.gnu.org/licenses/>.
+*/ 
+
+    // Connects to the database
     function pwork_connect(&$config) {
     	$config = parse_ini_file('config/pwork.ini', TRUE);
 		if ($config) {
